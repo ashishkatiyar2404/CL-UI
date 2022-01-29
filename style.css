@@ -1,5 +1,6 @@
 /* main css file... all components css files will import here */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
 :root {
   --primary-color-blue: blue;
   --secondary-color: rgba(31, 28, 28, 0.555);
@@ -13,13 +14,34 @@
   font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
 body {
   box-sizing: border-box;
+  font-size: 1.6rem;
 }
+
 .heading-main {
   color: var(--secondary-color);
+}
+
+.header {
+  background-color: var(--bg-color);
+  min-height: 15vh;
+}
+
+.sub-heading {
+  color: black;
+}
+
+.nav-home {
+  display: inline-block;
+}
+
+.personal-links ul > li {
+  display: inline-block;
 }
