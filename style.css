@@ -39,7 +39,7 @@ body {
 .nav-heading {
   color: var(--secondary-color);
 }
-h1 {
+.Ui-kit {
   font-size: 4rem;
   padding-top: 1rem;
   margin-left: 10rem;
@@ -80,4 +80,8 @@ hr {
   display: inline-block;
   font-size: 2rem;
   padding: 1rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 25vw 75vw;
 }
