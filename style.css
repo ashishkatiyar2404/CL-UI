@@ -1,9 +1,16 @@
 /* main css file... all components css files will import here */
+
+/* COMPONENTS CSS FILES IMPORTING */
+@import url(/Components/PO/alert.css);
+@import url(/Components/PO/avatar.css);
+
+/* FONTS IMPORT FROM GOOGLE */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
 :root {
   --primary-color-blue: blue;
   --secondary-color: rgba(31, 28, 28, 0.555);
+  --third--color: rgba(31, 28, 28, 0.7);
   --bg-color: rgb(247, 247, 247);
 }
 
@@ -13,6 +20,7 @@
   box-sizing: inherit;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+  word-wrap: break-word;
 }
 
 html {
@@ -24,24 +32,52 @@ body {
   box-sizing: border-box;
   font-size: 1.6rem;
 }
+.nav {
+  display: flex;
+}
 
-.heading-main {
+.nav-heading {
   color: var(--secondary-color);
+}
+h1 {
+  font-size: 4rem;
+  padding-top: 1rem;
+  margin-left: 10rem;
+}
+hr {
+  width: 100px;
 }
 
 .header {
   background-color: var(--bg-color);
-  min-height: 15vh;
+  min-height: 10vh;
 }
 
 .sub-heading {
-  color: black;
+  font-weight: bold;
+  color: var(--third--color);
+  margin-left: 30%;
 }
 
+.sub-heading-2 {
+  margin-left: 50rem;
+}
 .nav-home {
   display: inline-block;
+  padding: 1rem;
+  background-color: var(--third--color);
 }
-
+.nav-home a {
+  color: var(--bg-color);
+}
+.personal-links {
+  display: flex;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: 3rem;
+}
 .personal-links ul > li {
   display: inline-block;
+  font-size: 2rem;
+  padding: 1rem;
 }
