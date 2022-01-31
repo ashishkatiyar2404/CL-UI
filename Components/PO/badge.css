@@ -17,6 +17,8 @@
 
 .badges-avatar-img > div {
   background-color: rgb(6, 234, 241);
+  border: 2px solid white;
+
   position: absolute;
   border-radius: 50%;
 }

@@ -10,6 +10,7 @@
 }
 
 .alert {
+  width: 70%;
   border-radius: 0.5rem;
   margin: 1rem;
   padding: 1rem;
