@@ -1,0 +1,139 @@
+.badges__container,
+.badges-icon-container {
+  border: 1px solid gray;
+}
+
+.badges__container-avatar {
+  border: 1px solid gray;
+  margin: 2rem;
+  border-radius: 0.5rem;
+}
+
+.badges-avatar-img {
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+
+.badges-avatar-img > div {
+  background-color: rgb(6, 234, 241);
+  position: absolute;
+  border-radius: 50%;
+}
+
+.avatar-badge {
+  margin: 2rem;
+  border-radius: 50%;
+}
+
+.avatar-badge-lg {
+  width: 200px;
+  height: 200px;
+}
+.dot-lg {
+  height: 2rem;
+  width: 2rem;
+  bottom: 4.2rem;
+  left: 18rem;
+}
+
+.avatar-badge-md {
+  height: 150px;
+  width: 150;
+}
+.dot-md {
+  height: 1.5rem;
+  width: 1.5rem;
+  bottom: 4.2rem;
+  left: 14.2rem;
+}
+
+.avatar-badge-sm {
+  height: 100px;
+  width: 100;
+}
+.dot-sm {
+  height: 1.2rem;
+  width: 1.2rem;
+  bottom: 3rem;
+  left: 9.5rem;
+}
+
+.avatar-badge-xs {
+  height: 50px;
+  width: 50px;
+}
+.dot-xs {
+  height: 1rem;
+  width: 1rem;
+  bottom: 2.4rem;
+  left: 5.4rem;
+}
+
+/*  badges on icons */
+.badges-icon-container {
+  display: flex;
+  padding: 2rem;
+  margin: 2rem;
+  justify-content: space-between;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.badges-icon-img span {
+  position: absolute;
+}
+
+.badges-icon-img a > i {
+  font-size: 4rem;
+}
+
+.fa-telegram {
+  color: rgb(51, 171, 223);
+}
+
+.badges-icon-img .two {
+  top: 2rem;
+  left: 5rem;
+}
+.badges-icon-link .fa-twitter {
+  color: rgb(51, 171, 223);
+  margin-right: 30rem;
+}
+
+.badges-icon-img .five {
+  top: 2rem;
+  left: 29rem;
+}
+
+.fa-whatsapp {
+  color: rgb(77, 204, 91);
+}
+
+.badges-icon-img .three {
+  top: 2rem;
+  right: 55.5rem;
+}
+
+.fa-shopping-cart {
+  color: rgb(223, 51, 151);
+}
+
+.badges-icon-img .eight {
+  top: 2rem;
+  right: 35.5rem;
+}
+
+.two,
+.five,
+.three,
+.eight {
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(236, 84, 84);
+  text-align: center;
+  font-size: 1.2rem;
+}

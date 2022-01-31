@@ -1,8 +1,10 @@
 /* main css file... all components css files will import here */
 
 /* COMPONENTS CSS FILES IMPORTING */
+@import url(/Components/PO/mainCompo.css);
 @import url(/Components/PO/alert.css);
 @import url(/Components/PO/avatar.css);
+@import url(/Components/PO/badge.css);
 
 /* FONTS IMPORT FROM GOOGLE */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
@@ -32,6 +34,7 @@ body {
   box-sizing: border-box;
   font-size: 1.6rem;
 }
+
 .nav {
   display: flex;
 }
@@ -44,6 +47,7 @@ body {
   padding-top: 1rem;
   margin-left: 10rem;
 }
+
 hr {
   width: 100px;
 }
@@ -62,26 +66,31 @@ hr {
 .sub-heading-2 {
   margin-left: 50rem;
 }
+
 .nav-home {
   display: inline-block;
   padding: 1rem;
   background-color: var(--third--color);
 }
+
 .nav-home a {
   color: var(--bg-color);
 }
+
 .personal-links {
   display: flex;
   align-items: flex-end;
   margin-left: auto;
   margin-right: 3rem;
 }
+
 .personal-links ul > li {
   display: inline-block;
   font-size: 2rem;
   padding: 1rem;
 }
+
 .grid-container {
   display: grid;
-  grid-template-columns: 25vw 75vw;
+  grid-template-columns: 25vw 1fr;
 }
