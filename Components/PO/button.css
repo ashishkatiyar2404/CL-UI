@@ -1,0 +1,121 @@
+:root {
+  --btn-primary: #21c6f0;
+  --btn-success: #3ed639;
+  --btn--danger: #e75c6a;
+  --btn-warning: #b89324;
+}
+.btn {
+  border: 1px solid gray;
+}
+.btn__container {
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid gray;
+}
+.btn__primary-conatiner,
+.btn__link-container,
+.btn__icon-conatiner,
+.btn__floating-container {
+  border: 1px solid gray;
+}
+
+.btn__normal {
+  border: 1px solid gray;
+  margin: 2rem;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: var(--btn-primary);
+  /* color: blue; */
+}
+.btn-success {
+  background-color: var(--btn-success);
+}
+.btn-danger {
+  background-color: var(--btn--danger);
+}
+.btn-warning {
+  background-color: var(--btn-warning);
+}
+
+/* link button */
+.btn__link {
+  margin: 2rem;
+  font-size: 2rem;
+  text-decoration: underline;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.btn__link-primary {
+  border: 1px solid var(--btn-primary);
+}
+.btn__link-primary a {
+  color: var(--btn-primary);
+}
+.btn__link-secondary {
+  border: 1px solid grey;
+}
+.btn__link-secondary a {
+  color: grey;
+}
+.btn__link-success {
+  border: 1px solid var(--btn-success);
+}
+.btn__link-success a {
+  color: var(--btn-success);
+}
+.btn__link-danger {
+  border: 1px solid var(--btn--danger);
+}
+.btn__link-danger a {
+  color: var(--btn--danger);
+}
+.btn__link-warning {
+  border: 1px solid var(--btn-warning);
+}
+.btn__link-warning a {
+  color: var(--btn-warning);
+}
+
+/* icon button */
+.btn__icon-container {
+  /* border: 1px solid grey; */
+}
+.fa {
+  margin: 2rem;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+/* floating button */
+.btn__floating-container {
+  border: 1px solid grey;
+}
+.float {
+  margin: 2rem;
+  /* padding: 2rem; */
+  display: flex;
+  /* border: 1px solid purple; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+.float__item {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: var(--btn-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.fas {
+  margin: 0 auto;
+}

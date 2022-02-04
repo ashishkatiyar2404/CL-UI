@@ -5,6 +5,10 @@
 @import url(/Components/PO/alert.css);
 @import url(/Components/PO/avatar.css);
 @import url(/Components/PO/badge.css);
+@import url(/Components/PO/button.css);
+@import url(/Components/PO/image.css);
+@import url(/Components/PO/input.css);
+@import url(/Components/PO/card.css);
 
 /* FONTS IMPORT FROM GOOGLE */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");

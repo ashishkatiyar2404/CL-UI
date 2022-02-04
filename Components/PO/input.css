@@ -1,0 +1,28 @@
+.input__container {
+  border: 1px solid gray;
+}
+label {
+  font-size: 2rem;
+  font-weight: bold;
+}
+input {
+  display: block;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  width: 80%;
+  font-size: 2rem;
+  border: 2px solid rgb(236, 110, 110);
+}
+::placeholder {
+  font-size: 2rem;
+}
+label span {
+  color: red;
+}
+form button {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(236, 110, 110);
+  cursor: pointer;
+}
