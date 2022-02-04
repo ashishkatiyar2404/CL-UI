@@ -1,45 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="all.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- HEADER START -->
-    <div class="grid-container">
-      <header class="header">
-        <nav class="nav">
-          <div class="nav-heading">
-            <h1>
-              U! Kit
-              <hr />
-            </h1>
-            <span class="sub-heading">a kit for web design</span>
-            <ul class="sub-heading-2">
-              <li class="nav-home"><a href="#">Home</a></li>
-              <li class="nav-home"><a href="#">Docs</a></li>
-            </ul>
-          </div>
-          <div class="personal-links">
-            <ul>
-              <li>
-                <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="" class="linkedln"><i class="fab fa-linkedin"></i></a>
-              </li>
-              <li>
-                <a href="" class="github"></a><i class="fab fa-github"></i>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="all.css" />
+  <title>U! Kit</title>
+</head>
+
+<body>
+  <!--a Kit for web Design -->
+  <!-- doc page of CL UI -->
+  <!-- HEADER START -->
+  <header class="header">
+    <nav class="nav">
+      <div class="nav-heading">
+        <h1 class="Ui-kit">
+          U! Kit
+          <hr />
+        </h1>
+        <span class="sub-heading">a kit for web design</span>
+        <ul class="sub-heading-2">
+          <li class="nav-home"><a href="#">Home</a></li>
+          <li class="nav-home"><a href="#">Docs</a></li>
+        </ul>
+      </div>
+      <div class="personal-links">
+        <ul>
+          <li>
+            <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="" class="linkedln"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li><a href="" class="github"></a><i class="fab fa-github"></i></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- </div> -->
+  <!-- HEADER END -->
+
+  <!-- SIDE NAVBAR STARTS -->
+  <div class="grid-container">
+    <div class="navbar__container">
+      <div class="navbar__heading">
+        <h2 class="navbar__components">Components</h2>
+      </div>
+
+      <ul class="navbar__sidebar">
+        <li class="navbar__links navbar__links--alert"><a href="#Alerts">Alerts</a></li>
+        <li class="navbar__links navbar__links--avatar"><a href="#Avatar">Avatar</a></li>
+        <li class="navbar__links navbar__links--badge"><a href="#Badge">Badge</a></li>
+        <li class="navbar__links navbar__links--btn"><a href="#Button">Button</a></li>
+        <li class="navbar__links navbar__links--card"><a href="#Cards">Cards</a></li>
+        <li class="navbar__links navbar__links--img"><a href="#Image">Image</a></li>
+        <li class="navbar__links navbar__links--input"><a href="#Input">Input</a></li>
+        <li class="navbar__links navbar__links--text">
+          <a href="#Text-Utilitie">Text Utilities</a>
+        </li>
+        <li class="navbar__links navbar__links--list"><a href="#Lists">Lists</a></li>
+        <li class="navbar__links navbar__links--nav">
+          <a href="#Navigation">Navigation</a>
+        </li>
+        <li class="navbar__links navbar__links--modal"><a href="#Modal">Modal</a></li>
+        <li class="navbar__links navbar__links--rating"><a href="#Rating">Rating</a></li>
+        <li class="navbar__links navbar__links--toast">
+          <a href="#Toast/Notify/Snackbar">Toast/Notify/Snackbar</a>
+        </li>
+        <li class="navbar__links navbar__links--grid">
+          <a href="#Simplified Grid">Simplified Grid</a>
+        </li>
+        <li class="navbar__links navbar__links--slider"><a href="#Slider">Slider</a></li>
+      </ul>
     </div>
-    <!-- HEADER END -->
-  </body>
+    <!-- SIDE NAVBAR ENDS -->
+    <section class="main__content grid-items">
+      <!-- ALERT START-->
+      <div class="alert__container">
+        <div class="container-div">
+          <h1 class="compo__main-heading alert__heading">Alerts</h1>
+          <p>
+            what alert do will write here.. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Pariatur, natus.
+          </p>
+        </div>
+        <div class="container-div">
+          <h2 class="example__heading alert__heading-example">Example of Alert Bar</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+        </div>
+        <div class="alert__all">
+          <p class="alert alert__primary">
+            This is a primary alert-- <a href="">check it out !</a>
+          </p>
+          <p class="alert alert__secondary">
+            </i>This is a secondary alert !
+          </p>
+          <p class="alert alert__success"><i class="fas fa-check-circle"></i>This is a success alert !</p>
+          <p class="alert alert__danger">
+            <i class="fas fa-skull-crossbones"></i>This is a danger alert
+          </p>
+          <p class="alert alert__warning">
+            <i class="fas fa-exclamation-triangle"></i>This is a warning alert !
+          </p>
+          <p class="alert alert__info"><i class="fas fa-info-circle"></i>This is an info alert !</p>
+        </div>
+      </div>
+      <!-- here iframe of alert from carbon will come here -->
+      <!-- ALERT END -->
+
+      <!-- AVATAR START-->
+      <div class="avatar__container">
+        <div class="container-div">
+          <h1 class="compo__main-heading avatar__heading">Avatar</h1>
+          <p>
+            what avatar do will write here.. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Pariatur, natus.
+          </p>
+        </div>
+        <div class="container-div">
+          <h2 class="example__heading avatar__image-example">Example of Image Avatar</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+        </div>
+        <!-- more css need here ... writing clsses -->
+        <div class="avatar__all">
+          <div class="avatar__img--size">
+            <img src="/assets/avatarM.png" alt="Male Avatar" class="avatar avatar-lg">
+          </div>
+          <div class="avatar__img--size">
+            <img src="/assets/avatarM.png" alt="Male Avatar" class="avatar avatar-md">
+          </div>
+          <div class="avatar__img--size">
+            <img src="/assets/avatarF.png" alt="Female Avatar" class="avatar avatar-sm">
+          </div>
+          <div class="avatar__img--size">
+            <img src="/assets/avatarF.png" alt="Female Avatar" class="avatar avatar-xs">
+          </div>
+        </div>
+        <!-- iframe link of avatar html here -->
+        <div class="container-div">
+          <div class="container-div">
+            <h2 class="example__heading avatar__text-example">Example of Text Avatar</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+
+            </p>
+          </div>
+          <div class="text__avatar">
+            <div class="text__avatar-txt text__avatar--lg" alt="Text on Avatar">CSS</div>
+            <div class="text__avatar-txt text__avatar--md" alt="Text on Avatar">CSS</div>
+            <div class="text__avatar-txt text__avatar--sm" alt="Text on Avatar">CSS</div>
+            <div class="text__avatar-txt text__avatar--xs" alt="Text on Avatar">CSS</div>
+          </div>
+        </div>
+        <!-- iframe link text avatar -->
+      </div>
+      <!-- AVATAR ENDS -->
+
+      <!-- BADGES STARTS -->
+      <div class="badges__container">
+        <div class="container-div">
+          <h1 class="compo__main-heading badges__heading">Badges</h1>
+          <p>
+            what badges do will write here.. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Pariatur, natus.
+          </p>
+        </div>
+        <div class="container-div">
+          <h2 class="example__heading badges__avatar-example">Example of Badge on Avatar</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+        </div>
+        <div class="badges__container-avatar">
+          <div class="badges-avatar-img">
+            <img src="/assets/avatarM.png" alt="Male Avatar" class="avatar-badge avatar-badge-lg">
+            <div class="dot-lg"></div>
+          </div>
+          <div class="badges-avatar-img">
+            <img src="/assets/avatarM.png" alt="Male Avatar" class="avatar-badge avatar-badge-md">
+            <div class="dot-md"></div>
+          </div>
+          <div class="badges-avatar-img">
+            <img src="/assets/avatarF.png" alt="Female Avatar" class="avatar-badge avatar-badge-sm">
+            <div class="dot-sm"></div>
+          </div>
+          <div class="badges-avatar-img">
+            <img src="/assets/avatarF.png" alt="Female Avatar" class="avatar-badge avatar-badge-xs">
+            <div class="dot-xs"></div>
+          </div>
+        </div>
+        <!-- iframe of badges on avatar -->
+        <div class="container-div">
+          <h2 class="example__heading badges-example-heading">Example of Badge on Icons</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+        </div>
+        <div class="badges-icon-container">
+          <div class="badges-icon-img">
+            <a href="#" class="badges-icon-link"><i class="fab fa-telegram"></i><span class="two">2</span></a>
+          </div>
+          <div class="badges-icon-img">
+            <a href="#" class="badges-icon-link"><i class="fas fa-shopping-cart"></i><span class="five">5</span></a>
+          </div>
+          <div class="badges-icon-img">
+            <a href="#" class="badges-icon-link"><i class="fab fa-whatsapp"></i><span class="three">3</span></a>
+          </div>
+          <div class="badges-icon-img">
+            <a href="#" class="badges-icon-link"><i class="fab fa-twitter"></i><span class="eight">8</span></a>
+          </div>
+        </div>
+        <!-- iframe of badges on icons -->
+
+      </div>
+      <!-- BADGES ENDS -->
+
+      <!-- BUTTONS STARTS -->
+      <div class="btn">
+        <div class="container-div">
+          <h1 class="compo__main-heading btn-heading">Buttons</h1>
+          <p>
+            what button do will write here.. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Pariatur, natus.
+          </p>
+        </div>
+        <div class="container-div">
+          <h2 class="example__heading btn-example-heading">Example of Buttons</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+        </div>
+        <div class="btn__container">
+          <div class="btn__primary-container">
+            <h3 class="btn__primary-heading">Primary Button</h3>
+            <p class="btn__primary-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nemo!</p>
+            <button type="button" class="btn__normal btn-primary">Primary</button>
+            <button type="button" class="btn__normal btn-success">Success</button>
+            <button type="button" class="btn__normal btn-danger">Danger</button>
+            <button type="button" class="btn__normal btn-warning">Warning</button>
+          </div>
+          <!-- iframe of primary button  -->
+          <div class="btn__link-container">
+            <h3 class="btn__link-heading">Link Button</h3>
+            <p class="btn__link-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nemo!</p>
+            <button type="button" class="btn__link btn__link-primary"><a href="">Primary</a></button>
+            <button type="button" class="btn__link btn__link-secondary"><a href="">Secondary</a></button>
+            <button type="button" class="btn__link btn__link-success"><a href="">Success</a></button>
+            <button type="button" class="btn__link btn__link-danger"><a href="">Danger</a></button>
+            <button type="button" class="btn__link btn__link-warning"><a href="">Warning </a></button>
+          </div>
+          <!-- iframe of link button -->
+          <div class="btn__icon-container">
+            <h3 class="btn__icon-heading">Icon Button</h3>
+            <p class="btn__icon-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nemo!</p>
+            <i class="fa fa-home"> Home</i>
+            <i class="fa fa-bars"> Hamburger</i>
+            <i class="fa fa-trash"> Trash</i>
+            <i class="fa fa-cloud-upload-alt"> Upload</i>
+            <i class="fa fa-folder"> Folder</i>
+          </div>
+          <!-- iframe of icon button -->
+          <div class="btn__floating-container">
+            <h3 class="btn__floating-heading">Floating Button</h3>
+            <p class="btn__floating-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nemo!</p>
+            <div class="float">
+              <div class="float__item cross">
+                <span class="btn-floating"><i class="fas fa-times"></i></span>
+              </div>
+              <div class="float__item car">
+                <span class="btn-floating"><i class="fas fa-car"></i></span>
+              </div>
+              <div class="float__item plane"><span class="btn-floating"><i class="fas fa-plane"></i></span></div>
+              <div class="float__item camera"><span class="btn-floating"><i class="fas fa-camera"></i></span></div>
+              <div class="float__item pencil"><span class="btn-floating"><i class="fas fa-pencil-alt"></i></span></div>
+            </div>
+          </div>
+          <!-- iframe of floating button -->
+        </div>
+      </div>
+      <!-- BUTTONS ENDS -->
+
+      <!-- IMAGE START -->
+      <div class="img__container">
+        <div class="container-div">
+          <h1 class="compo__main-heading img__heading">Images</h1>
+          <p>
+            what badges do will write here.. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Pariatur, natus.
+          </p>
+        </div>
+        <div class="container-div">
+          <h2 class="example__heading img__respo-example">Example of Responsive Image
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+          <div class="img img__responsive">
+            <img src="https://picsum.photos/1400/500" alt="Responsive Image" class="responisve" loading="lazy">
+            <!-- <img src="/assets/responsive-img.jpg" alt="Responsive Image" class="responisve"> -->
+          </div>
+        </div>
+        <!-- iframe of responsive img -->
+        <div class="container-div">
+          <h2 class="example__heading img__respo-example">Example of Round Image
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+          <div class="img img__round">
+            <!-- <img src="/assets/round-img.jpg" alt="Responsive Image" class="round"> -->
+            <img src="https://picsum.photos/350/350" alt="Responsive Image" class="round">
+          </div>
+        </div>
+        <!-- iframe of round img -->
+      </div>
+      <!-- IMAGE END -->
+
+      <!-- INPUT START -->
+      <div class="input__container">
+        <div class="container-div">
+          <h1 class="compo__main-heading input__heading">Inputs</h1>
+          <p>
+            what badges do will write here.. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Pariatur, natus.
+          </p>
+        </div>
+        <div class="container-div">
+          <h2 class="example__heading input__text">Example of Input Text Box
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+          <div class="input__textBox">
+            <form>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" class="first-name" name="fname" placeholder="First Name"><br><br>
+
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" class="last-name" name="lname" placeholder="Last Name"><br><br>
+            </form>
+          </div>
+        </div>
+        <!-- ifram of input with text -->
+        <div class="container-div">
+          <h2 class="example__heading input__text">Example of Input with Validation and errors style
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+          <div class="input__textBox">
+            <form>
+              <label for="mail">Email Address<span>*</span></label><br>
+              <input type="email" id="mail" class="mail" name="mail" placeholder="Enter Your Mail ID" required><br><br>
+
+              <label for="password">Password<span>*</span></label><br>
+              <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+        <!-- ifram of input with text withvalidation and error -->
+
+      </div>
+      <!--  INPUT ENDS-->
+
+      <!-- CARD STARTS -->
+      <div class="card__container">
+        <div class="container-div">
+          <h1 class="compo__main-heading card__heading">Card</h1>
+          <p>
+            what badges do will write here.. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Pariatur, natus.
+          </p>
+        </div>
+        <!-- Cards with badges -->
+        <div class="container-div">
+          <h2 class="example__heading card__heading-example">Example Cards with badges and dismiss
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+          <div class="card__flex">
+            <div class="card__badge">
+              <div class="card__badge-img">
+                <img src="/assets/img_with_badge.jpg" alt="nature" />
+              </div>
+              <span class="new-brand">16% off</span>
+              <div>
+                <div class="card__badge-info1 card__badge-flex">
+                  <span class="">realme</span>
+                  <span class=""><i class="far fa-bookmark"></i></span>
+                </div>
+                <div class="card__badge-info1">
+                  <span>realme C25Y 128GB (Glacier) 4GB RAM Dual SIM 4G</span><br>
+                  <span class="rating">&nbsp 3.5 <i class="fas fa-star"></i></span> <span class="discount">13%
+                    off</span>
+                  <p>₹11,678 <span class="line__through">₹12,999</span> </p>
+
+                </div>
+                <div id="purchase" class="big__buttons card__link">
+                  <a href="">Add to Cart</a>
+                  <a href="">Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="card__badge">
+              <div class="card__badge-img">
+                <img src="/assets/img_with_badge.jpg" alt="nature" />
+              </div>
+              <span class="new-brand">9% off</span>
+              <span><i class="fas fa-times dismiss"></i></span>
+              <div>
+                <div class="card__badge-info1 card__badge-flex">
+                  <span class="">Xiaomi</span>
+                  <span class=""><i class="far fa-bookmark"></i></span>
+                </div>
+                <div class="card__badge-info1">
+                  <span>Xiaomi Redmi 9A 32GB (Nature green) 6GB RAM, Dual SIM 4G</span><br>
+                  <span class="rating">&nbsp 4.9 <i class="fas fa-star"></i></span> <span class="discount">8%
+                    off</span>
+                  <p>₹21,999 <span class="line__through">₹25  ,999</span> </p>
+
+                </div>
+                <div id="purchase" class="big__buttons card__link">
+                  <a href="">Add to Cart</a>
+                  <a href="">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cards with text overlay -->
+        <div class="container-div">
+          <h2 class="example__heading card__heading-example">Example Cards with text overlay
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+          <div class="card__overlay">
+            <div class="card__overlay-img img__shadow img">
+              <img src="/assets/pizza.jpg" alt="">
+            </div>
+            <div class="img__title">
+              <h2>Farm House Pizza</h2>
+              <span class="unique">Must Try</span>
+              <span class="rating">4.0 <i class="fas fa-star"></i></span><br><br>
+              <span class="details">Onion, capsicum, tomato and mushroom</span>
+            </div>
+            <div class="card__link">
+              <a href="">Add to Cart</a>
+              <a href="">Buy Now</a>
+            </div>
+            <div class="overlay"><span>First 5 will get 50% off. Click to order</span></div>
+          </div>
+          <!-- iframe of card with overlay -->
+        </div>
+
+        <!-- CARD WITH SHADOW -->
+        <div class="container-div">
+          <h2 class="example__heading card__heading-example">Example of Card w/Shadow
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+          <div class="card__shadow">
+            <div class="img__shadow">
+              <img src="/assets/pizza.jpg" alt="">
+            </div>
+            <div class="img__title">
+              <h2>Farm House Pizza</h2>
+              <span class="unique">Must Try</span>
+              <span class="rating">4.0 <i class="fas fa-star"></i></span><br><br>
+              <span class="details">Onion, capsicum, tomato and mushroom</span>
+            </div>
+            <div class="card__link">
+              <a href="">Add to Cart</a>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+          <!-- iframe of card with shadow -->
+        </div>
+
+        <!-- Text only cards -->
+        <div class="container-div">
+          <h2 class="example__heading card__heading-example">Example Text only cards
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+          <div class="card__text-only">
+            <div class="card__title">
+              <h1>Card Title</h1>
+            </div>
+            <div class="card__info">
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+                require little markup to use effectively.</p>
+            </div>
+            <div class="card__link">
+              <a href="">Add to Cart</a>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+          <!-- iframe of card text only -->
+        </div>
+
+        <!-- Vertical cards -->
+        <div class="container-div">
+          <h2 class="example__heading card__heading-example">Example Vertical cards
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+          <div class="card__vertical">
+            <div class="img__vertical">
+              <img src="/assets/vertical.jpg" alt="Vertical Image">
+            </div>
+            <div class="img__title img__title-vertical">
+              <h1>Wonderful sketch of eye using absara pencil</h1>
+              <span>available on diff. sizes only(A3, A4)</span><br>
+              <span>by Tanay Bhaiya</span>
+            </div>
+            <div class="img__rating-price">
+              <span class="rating">&nbsp 4.2 <i class="fas fa-star"></i></span>
+              <p>₹999 <span class="line__through">₹1200</span> <span class="discount">10% off</span></p>
+            </div>
+            <div class="big__buttons card__link">
+              <a href="">Add to Cart</a>
+              <a href="">Buy Now</a>
+            </div>
+          </div>
+          <!-- iframe of vertical card-->
+        </div>
+
+        <!-- Horizontal cards -->
+        <div class="container-div">
+          <h2 class="example__heading card__heading-example">Example Horizontal cards
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            cupiditate nemo fuga alias temporibus laborum, laudantium error?
+            Aliquam, inventore molestiae!
+          </p>
+          <div class="card__horizontal">
+            <div class="grid img__horizontal">
+              <img src="/assets/horizontal-card.jpg" alt="Horizontal Image">
+              <div class="grid">
+                <div class="info">
+                  <h1>Maria Mathew sketch using charchoal</h1>
+                  <span>exclusive sizes only(A3, A4)</span><br>
+                  <span>by Tanay Bhaiya</span>
+                  <div class="img__rating-price">
+                    <span class="rating">&nbsp 4.9 <i class="fas fa-star"></i></span>
+                    <p>₹1,999 <span class="line__through">₹2,200</span> <span class="discount">13% off</span></p>
+                  </div>
+                  <div class="big__buttons card__link">
+                    <a href="">Add to Cart</a>
+                    <a href="">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- iframe of horizontal card-->
+      </div>
+      <!-- CARDS END -->
+    </section>
+  </div>
+
+</body>
+
 </html>
