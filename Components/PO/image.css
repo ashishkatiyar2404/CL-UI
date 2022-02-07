@@ -1,0 +1,23 @@
+.img__container {
+  border: 1px solid gray;
+}
+
+.responisve {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.img__round {
+  margin: 1rem;
+  height: 20rem;
+  width: 20rem;
+}
+
+.round {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
