@@ -5,6 +5,10 @@
 @import url(/Components/PO/image.css);
 @import url(/Components/PO/input.css);
 @import url(/Components/PO/card.css);
+:root {
+  --compo-main-heading: rgba(0, 0, 0, 0.8);
+  --example-heading: rgb(136, 123, 123);
+}
 
 .grid-container {
   display: grid;
@@ -13,10 +17,12 @@
 
 .compo__main-heading {
   font-size: 4.8rem;
+  color: var(--compo-main-heading);
 }
 
 .example__heading {
   font-size: 3.2rem;
+  color: var(--example-heading);
 }
 
 .container-div {
@@ -28,12 +34,3 @@
 /* side nav */
 
 /* side nav  end*/
-
-/* 
-nav color -- rgb(39, 49, 60);
-footer color -- rgb(41, 44, 47);
-button color of home and docs -- rgb(196, 50, 101);
-heading color main--rgb(82, 82, 82);
-button k andr kla color --rgb(230, 217, 222)
-
-footer k icons ka color -- rgb(51, 56, 59); */
