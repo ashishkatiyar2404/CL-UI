@@ -98,9 +98,6 @@
 }
 
 /* icon button */
-.btn__icon-container {
-  /* border: 1px solid grey; */
-}
 
 .fa {
   margin: 2rem;
@@ -118,9 +115,7 @@
 
 .float {
   margin: 2rem;
-  /* padding: 2rem; */
   display: flex;
-  /* border: 1px solid purple; */
   justify-content: space-evenly;
   align-items: center;
 }
