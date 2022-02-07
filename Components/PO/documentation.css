@@ -1,0 +1,39 @@
+@import url(/Components/PO/alert.css);
+@import url(/Components/PO/avatar.css);
+@import url(/Components/PO/badge.css);
+@import url(/Components/PO/button.css);
+@import url(/Components/PO/image.css);
+@import url(/Components/PO/input.css);
+@import url(/Components/PO/card.css);
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25vw 1fr;
+}
+
+.compo__main-heading {
+  font-size: 4.8rem;
+}
+
+.example__heading {
+  font-size: 3.2rem;
+}
+
+.container-div {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid gray;
+}
+
+/* side nav */
+
+/* side nav  end*/
+
+/* 
+nav color -- rgb(39, 49, 60);
+footer color -- rgb(41, 44, 47);
+button color of home and docs -- rgb(196, 50, 101);
+heading color main--rgb(82, 82, 82);
+button k andr kla color --rgb(230, 217, 222)
+
+footer k icons ka color -- rgb(51, 56, 59); */
