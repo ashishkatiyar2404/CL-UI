@@ -5,13 +5,9 @@
 
 :root {
   --primary-color: rgb(39, 49, 60);
-  /* --secondary-color: rgba(31, 28, 28, 0.555); */
-  /* --third--color: rgba(31, 28, 28, 0.7); */
   --footer-bg-color: rgb(41, 44, 47);
   --nav-btn-bg-color: rgb(196, 50, 101);
 
-  /* --compo-heading-color: rgb(82, 82, 82); */
-  /* --home-btn: rgb(230, 217, 222); */
   --footer-icon: rgb(51, 56, 59);
   --white-color: rgb(247, 247, 247);
   --gray-color: rgb(136, 123, 123);
@@ -42,9 +38,9 @@ body {
   box-sizing: border-box;
   font-size: 1.6rem;
 }
+
 .header {
   background-color: var(--primary-color);
-  position: relative;
 }
 
 .nav {
@@ -77,6 +73,7 @@ hr {
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
 }
+
 .nav__header-links:hover {
   background-color: var(--nav-btn-bg-color);
   transition: all 0.5s ease 0s;
@@ -109,9 +106,11 @@ hr {
 .github:hover {
   color: var(--github);
 }
+
 .facebook:hover {
   color: var(--facebook);
 }
+
 .instagram:hover {
   color: var(--instagran);
 }
@@ -121,6 +120,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr 40%;
 }
+
 .hero__img {
   width: 100%;
   height: auto;
@@ -132,9 +132,11 @@ hr {
   padding: 1rem;
   margin: 1rem;
 }
+
 .section__heading-main-info span {
   color: var(--nav-btn-bg-color);
 }
+
 .section__heading-info {
   color: var(--footer-icon);
   font-size: 2rem;
@@ -149,16 +151,19 @@ hr {
   border-radius: 0.25rem;
   color: var(--white-color);
 }
+
 .section__btn .section__btn-docs {
   color: var(--footer-bg-color);
   background-color: var(--white-color);
   border: 1px solid var(--footer-bg-color);
 }
+
 .section__btn .section__btn-docs:hover {
   color: var(--white-color);
   background-color: var(--footer-bg-color);
   transition: all 0.5s ease 0s;
 }
+
 .guide__heading {
   color: var(--gray-color);
   font-size: 2.6rem;
@@ -167,6 +172,7 @@ hr {
   margin-top: 2.4rem;
   padding: 1rem;
 }
+
 .guide__info {
   color: var(--footer-icon);
   font-weight: 500;
@@ -176,13 +182,16 @@ hr {
 .footer {
   background-color: var(--footer-bg-color);
 }
+
 .footer__header,
 .footer__social-list {
   display: flex;
 }
+
 .footer__header {
   justify-content: center;
 }
+
 .copy-right {
   color: var(--gray-color);
   width: fit-content;
@@ -194,6 +203,7 @@ hr {
   padding: 1rem;
   color: var(--white-color);
 }
+
 .ashish span {
   color: var(--nav-btn-bg-color);
 }
