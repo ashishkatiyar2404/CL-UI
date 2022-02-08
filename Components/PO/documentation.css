@@ -1,0 +1,75 @@
+@import url(/Components/PO/alert.css);
+@import url(/Components/PO/avatar.css);
+@import url(/Components/PO/badge.css);
+@import url(/Components/PO/button.css);
+@import url(/Components/PO/image.css);
+@import url(/Components/PO/input.css);
+@import url(/Components/PO/card.css);
+:root {
+  --compo-main-heading: rgba(0, 0, 0, 0.8);
+  --example-heading: rgb(136, 123, 123);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  height: 87.5vh;
+}
+
+.compo__main-heading {
+  font-size: 4.8rem;
+  color: var(--compo-main-heading);
+}
+
+.example__heading {
+  font-size: 3.2rem;
+  color: var(--example-heading);
+}
+
+.container-div {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid gray;
+}
+
+/* side nav */
+.navbar__container {
+  background-color: #f0f0f0;
+  align-items: center;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.navbar__heading {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 2.4rem;
+  padding: 0.5rem 1rem;
+}
+
+.navbar__sidebar .navbar__links {
+  list-style: none;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.navbar__sidebar .navbar__links:hover {
+  background-color: var(--footer-icon);
+  transition: all 1s ease 0s;
+}
+
+.navbar__sidebar .navbar__links a {
+  color: var(--example-heading);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.navbar__sidebar .navbar__links:hover a {
+  color: var(--white-color);
+}
+
+/* side nav ends */
+.main__content {
+  height: 100%;
+  overflow-y: scroll;
+}

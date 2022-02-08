@@ -1,23 +1,23 @@
-/* main css file... all components css files will import here */
-
-/* COMPONENTS CSS FILES IMPORTING */
-@import url(/Components/PO/mainCompo.css);
-@import url(/Components/PO/alert.css);
-@import url(/Components/PO/avatar.css);
-@import url(/Components/PO/badge.css);
-@import url(/Components/PO/button.css);
-@import url(/Components/PO/image.css);
-@import url(/Components/PO/input.css);
-@import url(/Components/PO/card.css);
+@import url(/Components/PO/documentation.css);
 
 /* FONTS IMPORT FROM GOOGLE */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
 :root {
-  --primary-color-blue: blue;
-  --secondary-color: rgba(31, 28, 28, 0.555);
-  --third--color: rgba(31, 28, 28, 0.7);
-  --bg-color: rgb(247, 247, 247);
+  --primary-color: rgb(39, 49, 60);
+  --footer-bg-color: rgb(41, 44, 47);
+  --nav-btn-bg-color: rgb(196, 50, 101);
+
+  --footer-icon: rgb(51, 56, 59);
+  --white-color: rgb(247, 247, 247);
+  --gray-color: rgb(136, 123, 123);
+  --doc--bg-color: rgb(239, 239, 239);
+
+  --linkedin: #0a66c2;
+  --twitter: rgb(29, 155, 240);
+  --github: black;
+  --facebook: rgb(24, 119, 242);
+  --instagran: rgb(202, 40, 139);
 }
 
 * {
@@ -39,63 +39,184 @@ body {
   font-size: 1.6rem;
 }
 
+.header {
+  background-color: var(--primary-color);
+}
+
 .nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 3.2rem;
 }
 
-.nav-heading {
-  color: var(--secondary-color);
-}
-
-.Ui-kit {
-  font-size: 4rem;
-  padding-top: 1rem;
-  margin-left: 10rem;
+.Ui__kit {
+  cursor: pointer;
+  pointer-events: auto;
+  color: var(--white-color);
+  font-size: 3.2rem;
 }
 
 hr {
   width: 100px;
+  background-color: var(--white-color);
 }
 
-.header {
-  background-color: var(--bg-color);
-  min-height: 10vh;
-}
-
-.sub-heading {
+.sub__heading {
   font-weight: bold;
-  color: var(--third--color);
-  margin-left: 30%;
+  color: var(--nav-btn-bg-color);
 }
 
-.sub-heading-2 {
-  margin-left: 50rem;
-}
-
-.nav-home {
+.nav__header-links {
   display: inline-block;
-  padding: 1rem;
-  background-color: var(--third--color);
+
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
 }
 
-.nav-home a {
-  color: var(--bg-color);
+.nav__header-links:hover {
+  background-color: var(--nav-btn-bg-color);
+  transition: all 0.5s ease 0s;
 }
 
-.personal-links {
-  display: flex;
-  align-items: flex-end;
-  margin-left: auto;
-  margin-right: 3rem;
+.nav__header-links a {
+  color: var(--white-color);
 }
 
-.personal-links ul > li {
+.social-links ul > li {
   display: inline-block;
-  font-size: 2rem;
-  padding: 1rem;
+  margin: 0rem 1.6rem;
+  font-size: 2.6rem;
 }
 
-.grid-container {
+.linkedin,
+.twitter,
+.github {
+  color: var(--white-color);
+}
+
+.linkedin:hover {
+  color: var(--linkedin);
+}
+
+.twitter:hover {
+  color: var(--twitter);
+}
+
+.github:hover {
+  color: var(--github);
+}
+
+.facebook:hover {
+  color: var(--facebook);
+}
+
+.instagram:hover {
+  color: var(--instagran);
+}
+
+/* section */
+.section__main {
   display: grid;
-  grid-template-columns: 25vw 1fr;
+  grid-template-columns: 1fr 40%;
+}
+
+.hero__img {
+  width: 100%;
+  height: auto;
+}
+
+.section__heading-main-info {
+  font-size: 3.2rem;
+  color: var(--gray-color);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.section__heading-main-info span {
+  color: var(--nav-btn-bg-color);
+}
+
+.section__heading-info {
+  color: var(--footer-icon);
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.section__btn a {
+  padding: 1rem;
+  margin: 1rem 2rem;
+  background-color: var(--footer-bg-color);
+  border-radius: 0.25rem;
+  color: var(--white-color);
+}
+
+.section__btn .section__btn-docs {
+  color: var(--footer-bg-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--footer-bg-color);
+}
+
+.section__btn .section__btn-docs:hover {
+  color: var(--white-color);
+  background-color: var(--footer-bg-color);
+  transition: all 0.5s ease 0s;
+}
+
+.guide__heading {
+  color: var(--gray-color);
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin: 0 2rem;
+  margin-top: 2.4rem;
+  padding: 1rem;
+}
+
+.guide__info {
+  color: var(--footer-icon);
+  font-weight: 500;
+}
+
+/* footer */
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer__header,
+.footer__social-list {
+  display: flex;
+}
+
+.footer__header {
+  justify-content: center;
+}
+
+.copy-right {
+  color: var(--gray-color);
+  width: fit-content;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.footer__heading {
+  padding: 1rem;
+  color: var(--white-color);
+}
+
+.ashish span {
+  color: var(--nav-btn-bg-color);
+}
+
+.footer__social-list {
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.footer__social-list a {
+  padding: 0.6rem;
+  color: var(--white-color);
+  font-size: 2.5rem;
+  background-color: var(--footer-icon);
+  margin: 1rem;
 }
