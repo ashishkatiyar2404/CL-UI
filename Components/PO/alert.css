@@ -1,9 +1,31 @@
-.alert__container {
-  border: 1px solid var(--third--color);
+:root {
+  --alert-primary: #004085;
+  --primary-bg: #94bfeb;
+  --primary-border: #b8daff;
+
+  --alert-secondary: #383d41;
+  --secondary-bg: #b7bac1;
+  --secondary-border: #d6d8db;
+
+  --alert-success: #155724;
+  --success-bg: #a3dfb2;
+  --success-border: #c3e6cb;
+
+  --alert-danger: #721c24;
+  --danger-bg: #eba1a8;
+  --danger-border: #f5c6cb;
+
+  --alert-warning: #856404;
+  --warning-bg: #f7e4a8;
+  --warning-border: #ffeeba;
+
+  --alert-info: #0c5460;
+  --info-bg: #c1e4eb;
+  --info-border: #bee5eb;
 }
 
 .alert__all {
-  border: 1px solid gray;
+  border: 2px solid var(--border-gray);
   border-radius: 0.5rem;
   margin: 1rem;
   padding: 1rem;
@@ -18,39 +40,39 @@
 }
 
 .alert__primary {
-  color: #004085;
-  background-color: #94bfeb;
-  border-color: #b8daff;
+  color: var(--alert-primary);
+  background-color: var(--primary-bg);
+  border-color: var(--primary-border);
 }
 
 .alert__secondary {
-  color: #383d41;
-  background-color: #b7bac1;
-  border-color: #d6d8db;
+  color: var(--alert-secondary);
+  background-color: var(--secondary-bg);
+  border-color: var(--secondary-border);
 }
 
 .alert__success {
-  color: #155724;
-  background-color: #a3dfb2;
-  border-color: #c3e6cb;
+  color: var(--alert-success);
+  background-color: var(--success-bg);
+  border-color: var(--success-border);
 }
 
 .alert__danger {
-  color: #721c24;
-  background-color: #eba1a8;
-  border-color: #f5c6cb;
+  color: var(--alert-danger);
+  background-color: var(--danger-bg);
+  border-color: var(--danger-border);
 }
 
 .alert__warning {
-  color: #856404;
-  background-color: #f7e4a8;
-  border-color: #ffeeba;
+  color: var(--alert-warning);
+  background-color: var(--warning-bg);
+  border-color: var(--warning-border);
 }
 
 .alert__info {
-  color: #0c5460;
-  background-color: #c1e4eb;
-  border-color: #bee5eb;
+  color: var(--alert-info);
+  background-color: var(--info-bg);
+  border-color: var(--info-border);
 }
 
 .fas {
@@ -58,5 +80,5 @@
 }
 
 .alert__primary a:hover {
-  color: gray;
+  color: var(--border-gray);
 }

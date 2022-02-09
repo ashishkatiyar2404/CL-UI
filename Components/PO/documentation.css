@@ -5,9 +5,12 @@
 @import url(/Components/PO/image.css);
 @import url(/Components/PO/input.css);
 @import url(/Components/PO/card.css);
+
 :root {
   --compo-main-heading: rgba(0, 0, 0, 0.8);
   --example-heading: rgb(136, 123, 123);
+  --border-gray: gray;
+  --navbar-container-bg: #f0f0f0;
 }
 
 .grid-container {
@@ -29,12 +32,12 @@
 .container-div {
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
 
 /* side nav */
 .navbar__container {
-  background-color: #f0f0f0;
+  background-color: var(--navbar--container-bg);
   align-items: center;
   height: 100%;
   overflow-y: scroll;

@@ -5,25 +5,14 @@
   --btn-warning: #b89324;
 }
 
-.btn {
-  border: 1px solid gray;
-}
-
 .btn__container {
   margin: 2rem;
   padding: 2rem;
-  border: 1px solid gray;
-}
-
-.btn__primary-conatiner,
-.btn__link-container,
-.btn__icon-conatiner,
-.btn__floating-container {
-  border: 1px solid gray;
+  border: 2px solid var(--border-gray);
 }
 
 .btn__normal {
-  border: 1px solid gray;
+  border: 1px solid var(--border-gray);
   margin: 2rem;
   font-size: 2rem;
   padding: 0.5rem 1rem;
@@ -98,7 +87,9 @@
 }
 
 /* icon button */
-
+.btn__icon {
+  color: var(--white);
+}
 .fa {
   margin: 2rem;
   font-size: 2rem;
@@ -109,11 +100,8 @@
 }
 
 /* floating button */
-.btn__floating-container {
-  border: 1px solid grey;
-}
 
-.float {
+.btn__float {
   margin: 2rem;
   display: flex;
   justify-content: space-evenly;
