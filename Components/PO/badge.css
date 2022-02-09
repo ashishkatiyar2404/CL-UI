@@ -1,24 +1,30 @@
-.badges__container,
-.badges-icon-container {
-  border: 1px solid gray;
+:root {
+  --white: white;
+  --status: rgb(6, 234, 241);
+  --telegram-twitter: rgb(51, 171, 223);
+  --whatsapp: rgb(77, 204, 91);
+  --shopping-cart: rgb(223, 51, 151);
+  --badge-notification: rgb(236, 84, 84);
+}
+.badges__icon-container {
+  border: 2px solid var(--border-gray);
 }
 
 .badges__container-avatar {
-  border: 1px solid gray;
+  border: 2px solid var(--border-gray);
   margin: 2rem;
   border-radius: 0.5rem;
 }
 
-.badges-avatar-img {
+.badges__avatar-img {
   display: inline-block;
   border-radius: 50%;
   position: relative;
 }
 
-.badges-avatar-img > div {
-  background-color: rgb(6, 234, 241);
-  border: 2px solid white;
-
+.badges__avatar-img > div {
+  background-color: var(--status);
+  border: 2px solid var(--white);
   position: absolute;
   border-radius: 50%;
 }
@@ -77,7 +83,7 @@
 }
 
 /*  badges on icons */
-.badges-icon-container {
+.badges__icon-container {
   display: flex;
   padding: 2rem;
   margin: 2rem;
@@ -87,47 +93,47 @@
   left: 0px;
 }
 
-.badges-icon-img span {
+.badges__icon-img span {
   position: absolute;
 }
 
-.badges-icon-img a > i {
+.badges__icon-img a > i {
   font-size: 4rem;
 }
 
 .fa-telegram {
-  color: rgb(51, 171, 223);
+  color: var(--telegram-twitter);
 }
 
-.badges-icon-img .two {
+.badges__icon-img .two {
   top: 2rem;
   left: 5rem;
 }
 
-.badges-icon-link .fa-twitter {
-  color: rgb(51, 171, 223);
+.badges__icon-link .fa-twitter {
+  color: var(--telegram-twitter);
   margin-right: 30rem;
 }
 
-.badges-icon-img .five {
+.badges__icon-img .five {
   top: 2rem;
   left: 29rem;
 }
 
 .fa-whatsapp {
-  color: rgb(77, 204, 91);
+  color: var(--whatsapp);
 }
 
-.badges-icon-img .three {
+.badges__icon-img .three {
   top: 2rem;
   right: 55.5rem;
 }
 
 .fa-shopping-cart {
-  color: rgb(223, 51, 151);
+  color: var(--shopping-cart);
 }
 
-.badges-icon-img .eight {
+.badges__icon-img .eight {
   top: 2rem;
   right: 35.5rem;
 }
@@ -139,8 +145,8 @@
   height: 1.6rem;
   width: 1.6rem;
   border-radius: 50%;
-  color: white;
-  background-color: rgb(236, 84, 84);
+  color: var(--white);
+  background-color: var(--badge-notification);
   text-align: center;
   font-size: 1.2rem;
 }

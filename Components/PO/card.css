@@ -1,14 +1,15 @@
-.card__container {
-  border: 1px solid gray;
-}
-
 .card__flex {
   display: flex;
   justify-content: space-around;
+  border: 2px solid var(--border-gray);
+  padding: 0.5rem;
 }
-
+:root {
+  --shadow: rgb(206, 197, 197);
+  --badge-sale: rgb(255, 39, 104);
+}
 .card__badge {
-  box-shadow: 0rem 0rem 2rem rgb(206, 197, 197);
+  box-shadow: 0rem 0rem 2rem var(--shadow);
   width: 20%;
   border-radius: 0.5rem;
   position: relative;
@@ -25,7 +26,7 @@
 
 .new-brand {
   clip-path: polygon(0% 0%, 80% 0, 100% 40%, 80% 70%, 0 70%);
-  background-color: rgb(255, 39, 104);
+  background-color: var(--badge-sale);
   width: 40%;
   height: 2.6rem;
   position: absolute;
@@ -100,6 +101,10 @@
 }
 
 /* CARD WITH TEXT OVERLAY */
+.card__border {
+  border: 2px solid var(--border-gray);
+  padding: 0.5rem;
+}
 .card__overlay {
   position: relative;
 }
@@ -227,7 +232,6 @@
 
 /* HORIZONTAL IMG */
 .card__horizontal {
-  border: 1px solid gray;
   box-shadow: 0rem 0rem 2rem black;
   margin-top: 1rem;
   width: 75%;
