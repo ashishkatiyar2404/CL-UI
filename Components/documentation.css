@@ -1,10 +1,14 @@
-@import url(/Components/PO/alert.css);
-@import url(/Components/PO/avatar.css);
-@import url(/Components/PO/badge.css);
-@import url(/Components/PO/button.css);
-@import url(/Components/PO/image.css);
-@import url(/Components/PO/input.css);
-@import url(/Components/PO/card.css);
+@import url(/Components/alert.css);
+@import url(/Components/avatar.css);
+@import url(/Components/badge.css);
+@import url(/Components/button.css);
+@import url(/Components/image.css);
+@import url(/Components/input.css);
+@import url(/Components/card.css);
+@import url(/Components/typography.css);
+@import url(/Components/list.css);
+@import url(/Components/navigation.css);
+@import url(/Components/modal.css);
 
 :root {
   --compo-main-heading: rgba(0, 0, 0, 0.8);
@@ -32,7 +36,6 @@
 .container-div {
   margin: 1rem;
   padding: 1rem;
-  /* border: 1px solid gray; */
 }
 
 /* side nav */
@@ -75,4 +78,10 @@
 .main__content {
   height: 100%;
   overflow-y: scroll;
+}
+
+.border {
+  border: 2px solid var(--border-gray);
+  padding: 1.6rem;
+  margin: 2rem;
 }
