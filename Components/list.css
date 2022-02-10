@@ -1,0 +1,34 @@
+.unordered__list-container,
+.ordered__list-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1.6rem;
+}
+
+.unordered__list-container {
+  justify-content: space-evenly;
+}
+
+.ordered__list-container {
+  justify-content: space-between;
+}
+
+/* stacked */
+.stacked__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stacked__items {
+  padding: 1rem;
+  margin: 0.1rem;
+  background-color: var(--doc--bg-color);
+  width: 35%;
+  color: var(--white);
+}
+div.stacked__items > * {
+  color: rgb(48, 47, 47);
+}
+div.notify > * {
+  display: inline-block;
+}

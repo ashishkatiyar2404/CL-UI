@@ -1,0 +1,41 @@
+:root {
+  --rest-modal-bg: rgb(127, 127, 127, 0.2);
+}
+.modal__border {
+  background-color: var(--rest-modal-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 30%;
+  background-color: var(--white);
+  padding: 2.5rem;
+}
+
+.modal__heading-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+}
+
+.modal__heading {
+  display: inline-block;
+  margin-right: auto;
+}
+
+.modal__fa-times {
+  display: inline-block;
+  color: var(--footer-icon);
+}
+
+.modal__option {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.modal__option a {
+  padding: 1rem;
+  color: var(--footer-icon);
+}
