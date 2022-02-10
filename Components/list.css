@@ -1,15 +1,15 @@
-.unordered__list,
-.ordered__list {
+.unordered__list-container,
+.ordered__list-container {
   display: flex;
   flex-direction: row;
   padding: 1.6rem;
 }
 
-.unordered__list {
+.unordered__list-container {
   justify-content: space-evenly;
 }
 
-.ordered__list {
+.ordered__list-container {
   justify-content: space-between;
 }
 
@@ -20,12 +20,11 @@
 }
 
 .stacked__items {
-  /* border: 1px solid red; */
   padding: 1rem;
   margin: 0.1rem;
   background-color: var(--doc--bg-color);
   width: 35%;
-  color: white;
+  color: var(--white);
 }
 div.stacked__items > * {
   color: rgb(48, 47, 47);

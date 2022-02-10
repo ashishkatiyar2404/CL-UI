@@ -1,5 +1,5 @@
 :root {
-  --gray-text: gray;
+  --gray-text: rgb(128, 128, 128);
 }
 
 .heading__first,

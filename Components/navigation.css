@@ -21,17 +21,17 @@
   align-items: center;
   justify-content: space-between;
 }
-.company__name {
+.header__title {
   cursor: pointer;
 }
-.company__name2-nav > .navigation__links {
+.header__title2-nav > .navigation__links {
   order: 1;
 }
 .navigation__button2 {
   order: 2;
 }
 
-.company__name2 {
+.header__title2 {
   margin-right: auto;
   order: 3;
   margin-left: auto;

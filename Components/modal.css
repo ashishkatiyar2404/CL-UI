@@ -1,8 +1,8 @@
 :root {
-  --rest-modal: rgb(127, 127, 127, 0.2);
+  --rest-modal-bg: rgb(127, 127, 127, 0.2);
 }
 .modal__border {
-  background-color: var(--rest-modal);
+  background-color: var(--rest-modal-bg);
   display: flex;
   justify-content: center;
   align-items: center;
