@@ -88,13 +88,18 @@
   padding: 2rem;
   margin: 2rem;
   justify-content: space-between;
-  position: relative;
   top: 0px;
   left: 0px;
 }
 
-.badges__icon-img span {
+.badges__icon-link {
+  position: relative;
+}
+
+.badges__icon-link span {
   position: absolute;
+  top: -2rem;
+  right: -0.5rem;
 }
 
 .badges__icon-img a > i {
@@ -105,37 +110,15 @@
   color: var(--telegram-twitter);
 }
 
-.badges__icon-img .two {
-  top: 2rem;
-  left: 5rem;
-}
-
 .badges__icon-link .fa-twitter {
   color: var(--telegram-twitter);
-  margin-right: 30rem;
-}
-
-.badges__icon-img .five {
-  top: 2rem;
-  left: 29rem;
-}
-
-.fa-whatsapp {
-  color: var(--whatsapp);
-}
-
-.badges__icon-img .three {
-  top: 2rem;
-  right: 55.5rem;
 }
 
 .fa-shopping-cart {
   color: var(--shopping-cart);
 }
-
-.badges__icon-img .eight {
-  top: 2rem;
-  right: 35.5rem;
+.fa-whatsapp {
+  color: var(--whatsapp);
 }
 
 .two,

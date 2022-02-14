@@ -90,7 +90,7 @@
 .btn__icon {
   color: var(--white);
 }
-.fa {
+.btn__icon i {
   margin: 2rem;
   font-size: 2rem;
   padding: 0.5rem 1rem;
@@ -119,6 +119,6 @@
   cursor: pointer;
 }
 
-.fas {
+.btn-floating .fas {
   margin: 0 auto;
 }
