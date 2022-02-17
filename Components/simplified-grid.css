@@ -2,6 +2,7 @@
   display: grid;
   padding: 0;
 }
+
 .two__item-grid-container {
   grid-template-columns: 1fr 1fr;
 }
@@ -9,6 +10,7 @@
 .three__item-grid-container {
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .grid__box {
   height: 30vh;
   text-align: center;
@@ -16,18 +18,23 @@
   line-height: 30vh;
   color: var(--white);
 }
+
 .two__item-box1 {
   background-color: var(--primary-color);
 }
+
 .two__item-box2 {
   background-color: var(--gray-color);
 }
+
 .three__item-box1 {
   background-color: var(--primary-color);
 }
+
 .three__item-box2 {
   background-color: var(--gray-color);
 }
+
 .three__item-box3 {
   background-color: var(--footer-icon);
 }

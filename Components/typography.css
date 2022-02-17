@@ -6,22 +6,27 @@
 .small__text-1 {
   font-size: 6rem;
 }
+
 .heading__second,
 .small__text-2 {
   font-size: 5rem;
 }
+
 .heading__third,
 .small__text-3 {
   font-size: 4rem;
 }
+
 .heading__four,
 .small__text-4 {
   font-size: 3rem;
 }
+
 .heading__five,
 .small__text-5 {
   font-size: 2rem;
 }
+
 .heading__six,
 .small__text-6 {
   font-size: 1.3rem;
@@ -37,6 +42,7 @@
 .center__text {
   text-align: center;
 }
+
 .center__text-1,
 .center__text-2,
 .center__text-3 {

@@ -129,7 +129,7 @@ hr {
 }
 
 .section__heading-main-info {
-  font-size: 3.2rem;
+  font-size: 3.4rem;
   color: var(--gray-color);
   padding: 1rem;
   margin: 1rem;
@@ -143,7 +143,7 @@ hr {
   color: var(--footer-icon);
   font-size: 2rem;
   padding: 0.5rem;
-  margin: 0.5rem;
+  margin-left: 1rem;
 }
 
 .section__btn a {
@@ -178,9 +178,10 @@ hr {
 .guide__info {
   color: var(--footer-icon);
   font-weight: 500;
+  margin-left: 1rem;
 }
 
-/* footer */
+/* FOOTER */
 .footer {
   background-color: var(--footer-bg-color);
 }
